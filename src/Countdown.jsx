@@ -69,10 +69,10 @@ const Countdown = () => {
             <div>
                 <p>
                     {isActive == false ?
-                        <button onClick={handleStart} disabled={isActive}>
-                            <AiFillPlayCircle className='playButton' />
+                        <button onClick={handleStart} className='playButton' disabled={isActive}>
+                            Start
                         </button> :
-                        <button onClick={handlePause}><AiFillPauseCircle className='playButton' /></button>
+                        <button onClick={handlePause} className='playButton'>Pause</button>
                     }
 
                     {String(hours).padStart(2, '0')}:{String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}

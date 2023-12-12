@@ -15,7 +15,7 @@ body {
 p {
   display: flex;
   color: #0c6179;
-  font-size: 2em;
+  font-size: 40px;
   gap: 10px;
   margin-right: 20px;
 }
@@ -35,7 +35,7 @@ p {
 input {
   background-color: transparent;
   width: 35vh;
-  height: 3vh;
+  height: 4vh;
   margin-left: 10px;
   border-radius: 5px;
   color: #fff;
@@ -53,14 +53,15 @@ input[type=number]::-webkit-inner-spin-button {
 button {
   background: transparent;
   color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 0 5px;
-  border: none;
+  border: 1px solid #fff;
+  padding: 10px;
 }
 
 .playButton {
   cursor: pointer;
   color: #0c6179;
   background-color: transparent;
-  font-size: 30px;
+  font-size: 20px;
 }
